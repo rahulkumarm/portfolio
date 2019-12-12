@@ -120,9 +120,9 @@ a:focus {
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="portfolioFilter clearfix">
-				<a href="#" data-filter=".web" class="current">Web</a>
-				<a href="#" data-filter=".app">App</a>
-				<a href="#" data-filter=".ml">ml</a>
+				<a href="#" data-filter=".ml" class="current">AI / ML</a>
+				<a href="#" data-filter=".web">Website</a>
+				<a href="#" data-filter=".app">Mobile App</a>
 				<a href="#" data-filter=".py">Python</a>
 				<a href="#" data-filter=".oth">Others</a>
 			</div>
@@ -355,7 +355,7 @@ a:focus {
     var $container = $('.portfolioContainer');
 	if ($container.length) { 
     $container.isotope({
-        filter: '.web',
+        filter: '.ml',
         animationOptions: {
             duration: 750,
             easing: 'linear',
