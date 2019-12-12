@@ -354,7 +354,7 @@ a:focus {
 	<script type="text/javascript">
 	$(document).ready(function (){
     var $container = $('.portfolioContainer');
-	if ($container.length) { 
+	
     $container.isotope({
         filter: '.ml',
         animationOptions: {
@@ -363,7 +363,6 @@ a:focus {
             queue: false
         }
     });
-	}
  
     $('.portfolioFilter a').click(function(){
         $('.portfolioFilter .current').removeClass('current');
